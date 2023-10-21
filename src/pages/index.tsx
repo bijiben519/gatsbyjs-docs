@@ -139,10 +139,6 @@ const links = [
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
-        update in real-time. 😎
-      </p>
       <ul style={doclistStyles}>
         {docLinks.map(doc => (
           <li key={doc.url} style={docLinkStyle}>
