@@ -1,4 +1,3 @@
-git pull
 npm install
 rm -rf public
 rm -rf .cache
